@@ -1,3 +1,37 @@
-html{
-    background-color: rgb(255, 238, 241);
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 250px;
+}
+#color-name {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+#generate-btn {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0 auto;
+    padding: 50px;
+    width:300px;
+    height:300px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #ea6e6e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+#generate-btn:hover {
+    background-color: #0056b3;
 }
