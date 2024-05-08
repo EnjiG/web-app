@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Color Generator</title>
+        <title>Random Color Generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -22,14 +22,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body id="color-box">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
         <div class="container">
-            <div id="color-box"></div>
-            <div id="color-code"></div>
+            <div id="color-code">Tap to generate color</div>
             <button id="generate-btn" onclick="generateRandomColor()">Generate Color</button>
         </div>
 
