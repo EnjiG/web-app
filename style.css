@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    text-shadow: 2px 2px 3px white;
     text-align: center;
     margin-top: 200px;
 }
@@ -24,9 +25,9 @@ body {
     cursor: pointer;
     background-color: #f79696;
     color: white;
-    border: none;
     border-radius: 50%;
+    border: none;
 }
 #generate-btn:hover {
-    background-color: #ccabec;
+    background-color: #ff7575;
 }
